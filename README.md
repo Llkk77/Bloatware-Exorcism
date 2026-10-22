@@ -72,7 +72,13 @@ Material dependencies and the font are already bundled in the APK assets. Node i
 
 ## Validation and recovery limits
 
-Compilation, lint, policy/fixture tests and controlled browser UI/accessibility checks passed. No physical Android device or emulator was used. KernelSU behavior, firmware safety, dynamic colors and boot rescue remain unvalidated on real devices. No performance gain is claimed.
+Compilation, lint, policy/fixture tests and controlled browser UI/accessibility checks passed.
+
+**Physical-device testing:** Llkk77 reports that all tests performed on a **POCO M6 PRO** completed successfully. This updates the earlier build-time report, which did not include physical-device or emulator testing.
+
+**Testes em aparelho físico:** Llkk77 realizou testes no **POCO M6 PRO** e informou que todos os testes executados foram concluídos com êxito.
+
+These results apply to the tested device and configuration. Android/ROM version, KernelSU version and individual test logs have not yet been documented here. Compatibility with other devices, firmware configurations and recovery scenarios is not established by this report. No measured performance gain is claimed.
 
 Holy Backup records package states, not personal app data or firmware images. Root removal uses the current-user package operation and retains original system files; it is not partition cleanup. Core/protected packages remain blocked. The rescue module is experimental and cannot guarantee recovery.
 
