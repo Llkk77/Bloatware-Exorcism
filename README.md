@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="Bloatware Exorcism — Clean your Android. Reclaim control." width="100%">
-</p>
-
-<p align="center">
-  <img src="icon.jpg" alt="Bloatware Exorcism icon" width="80" height="80">
+  <img src="banner-clean.png" alt="Bloatware Exorcism — Clean your Android. Reclaim control." width="100%">
 </p>
 
 # Bloatware Exorcism
