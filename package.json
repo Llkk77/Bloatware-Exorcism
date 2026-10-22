@@ -1,0 +1,17 @@
+{
+  "name": "bloatware-exorcism-ui",
+  "private": true,
+  "version": "0.3.1",
+  "type": "module",
+  "scripts": {
+    "build:ui": "esbuild scripts/material-entry.js --bundle --minify --format=iife --target=es2020 --legal-comments=external --outfile=app/src/main/assets/vendor/material.js"
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "0.4.0",
+    "@material/web": "2.5.0"
+  },
+  "devDependencies": {
+    "axe-core": "4.14.0",
+    "esbuild": "0.25.12"
+  }
+}

@@ -1,0 +1,15 @@
+/.gradle/
+/local.properties
+**/build/
+*.jks
+*.keystore
+**/__pycache__/
+
+node_modules/
+
+/dist/
+.env
+keystore.properties
+*.p12
+*.pem
+*.key
