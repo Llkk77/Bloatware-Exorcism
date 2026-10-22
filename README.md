@@ -101,7 +101,7 @@ The existing v0.3.1 development-signed APK has SHA-256:
 004d83c55742676bd65e226e939297d23da1d40838c2fd61a08d13cc07253027
 ```
 
-Compare it with `SHA256SUMS.txt` in [the same release](https://github.com/Llkk77/BloatwareExorcism-Android-Debloater/releases/tag/v0.3.1). This identifies that file; it does not certify security. A VirusTotal report is not yet linked as verified test evidence.
+Compare it with `SHA256SUMS.txt` in [the same release](https://github.com/Llkk77/BloatwareExorcism-Android-Debloater/releases/tag/v0.3.1). This identifies that file; it does not certify security. [VirusTotal report for this exact APK](https://www.virustotal.com/gui/file/004d83c55742676bd65e226e939297d23da1d40838c2fd61a08d13cc07253027?nocache=1): **0/66 detections** in the analysis dated **2026-10-22**. This is a malware-scanner result, not a security certification or validation of root operations, firmware safety, or boot recovery. Results may change; check the live report.
 
 ## FAQ
 
