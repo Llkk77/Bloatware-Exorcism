@@ -1,3 +1,15 @@
+# Physical-device testing update — 2026-10-22
+
+Llkk77 reports that all tests performed on a **POCO M6 PRO** completed successfully.
+
+**Atualização:** Llkk77 realizou testes em aparelho físico **POCO M6 PRO** e informou que todos os testes executados foram concluídos com êxito.
+
+This report applies to the tested device and configuration. Android/ROM version, KernelSU version, app build and individual test logs were not specified in the report. It does not establish compatibility with other devices or firmware configurations.
+
+The records below describe the earlier build-time verification environment. Statements that no device or emulator was connected refer to those historical sessions, before the subsequent physical-device testing reported above.
+
+---
+
 # Verification 0.3.0
 
 - assembleDebug and lintDebug passed with no lint issues.
