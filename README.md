@@ -2,9 +2,15 @@
   <img src="banner-clean.png" alt="Bloatware Exorcism — Clean your Android. Reclaim control." width="100%">
 </p>
 
-# Bloatware Exorcism
+# Bloatware Exorcism — Android Debloater for MIUI & HyperOS
 
-Offline MIUI/HyperOS bloatware management with KernelSU, reversible package changes and a Material Design 3 interface.
+**Bloatware Exorcism** is an open-source, offline **Android debloater and system app manager** for Xiaomi MIUI and HyperOS, using **KernelSU root access**. Inspect installed packages, disable or uninstall selected bloatware for the current Android user, and restore recorded package changes through a **Material Design 3 (Material You)** interface.
+
+Designed for manual package review, package-state backups and reversible debloating workflows. No INTERNET permission, ads or analytics. Compatibility and recovery limits are documented below.
+
+**Em português:** gerenciador de bloatware para Android, com foco em Xiaomi MIUI e HyperOS e acesso root via KernelSU. Permite revisar, desativar ou desinstalar aplicativos de sistema para o usuário atual, salvar estados dos pacotes e restaurar alterações registradas. Funciona offline e usa uma interface Material You.
+
+[Download APK](https://github.com/Llkk77/Bloatware-Exorcism/releases) · [Features](#features) · [Installation](#requirements-and-installation) · [Build from source](#build-from-the-source-archive) · [Limitations](#validation-and-recovery-limits)
 
 ## Downloads
 
@@ -16,6 +22,8 @@ Offline MIUI/HyperOS bloatware management with KernelSU, reversible package chan
 The complete, buildable source tree is provided in **BloatwareExorcism-project.zip**. Extract it and open the `BloatwareExorcism` folder in Android Studio. The archive includes the Gradle wrapper, native Java code, local Material Web interface, catalog, tests, documentation and third-party license notices. Private signing keys are excluded.
 
 ## Features
+
+Android bloatware removal, system package inspection, backup and restoration are organized into five tools:
 
 | Feature | Function |
 |---|---|
