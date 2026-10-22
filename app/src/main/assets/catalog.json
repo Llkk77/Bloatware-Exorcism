@@ -1,0 +1,1396 @@
+{
+  "version": 1,
+  "scope": "MIUI and HyperOS; availability varies by model and Global/China ROM",
+  "packages": [
+    {
+      "package": "com.miui.msa.global",
+      "label": "MSA",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.systemAdSolution",
+      "label": "System Ad Solution",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.analytics",
+      "label": "Xiaomi Analytics",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.facebook.appmanager",
+      "label": "Meta App Manager",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.facebook.services",
+      "label": "Meta Services",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.facebook.system",
+      "label": "Meta App Installer",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.netflix.partner.activation",
+      "label": "Netflix Activation",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.opera.preinstall",
+      "label": "Opera Preinstall",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.amazon.appmanager",
+      "label": "Amazon Assistant",
+      "group": "Advertising",
+      "risk": "candidate",
+      "note": "May reduce promotional content. Performance gains have not been measured.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.daemon",
+      "label": "MIUI Daemon",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.bugreport",
+      "label": "Mi Feedback",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.klo.bugreport",
+      "label": "KLO Reports",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.miservice",
+      "label": "Services & Feedback",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.uireporter",
+      "label": "UI Reporter",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.misightservice",
+      "label": "MiSight",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.spock",
+      "label": "Spock",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.security.onetrack",
+      "label": "Security OneTrack",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.bsp.catchlog",
+      "label": "CatchLog",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.wmsvc",
+      "label": "WMService",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.sysopt",
+      "label": "SysOpt",
+      "group": "Diagnostics",
+      "risk": "advanced",
+      "note": "Event or diagnostic collection according to community sources. May support other functions.",
+      "source": "https://github.com/purainity/myron-hyperos-analysis/tree/main/report",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.hybrid",
+      "label": "Quick Apps",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.hybrid.accessory",
+      "label": "Quick Apps Accessory",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.personalassistant",
+      "label": "App Vault",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.android.globalminusscreen",
+      "label": "App Vault Global",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.android.globalpersonalassistant",
+      "label": "Global Assistant",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.globalminusscreen",
+      "label": "Alternate App Vault",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.newhome",
+      "label": "Content Service",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.contentextension",
+      "label": "Taplus",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.phrase",
+      "label": "Frequent Phrases",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.appfinder",
+      "label": "App Search",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.android.fashiongallery",
+      "label": "Wallpaper Carousel",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.duokan.reader",
+      "label": "Duokan Reader",
+      "group": "Content",
+      "risk": "optional",
+      "note": "Changing this package disables its content feature. Check whether you use it.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.voiceassist",
+      "label": "XiaoAI",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.voicetrigger",
+      "label": "Voice Activation",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.voiceassistProxy",
+      "label": "Voice Assistant Proxy",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.voiceassistoverlay",
+      "label": "XiaoAI Interface",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aiasst.service",
+      "label": "AI Call Assistant",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aiasst.vision",
+      "label": "AI Vision",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mibrain.speech",
+      "label": "Speech Engine",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aireco",
+      "label": "XiaoAI Suggestions",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.xaee",
+      "label": "XiaoAI Edge Engine",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aicr",
+      "label": "Xiaomi AICR",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aiservice",
+      "label": "Xiaomi AI Service",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.aon",
+      "label": "Always-on sensing",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.translationservice",
+      "label": "Xiaomi Translation",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.translation.kingsoft",
+      "label": "Kingsoft Translation",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.translation.xmcloud",
+      "label": "Cloud Translation",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.translation.youdao",
+      "label": "Youdao Translation",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.contentcatcher",
+      "label": "Content Catcher",
+      "group": "AI and voice",
+      "risk": "advanced",
+      "note": "May disrupt voice, translation, AI or integrated features. Test one package at a time; behavior varies by ROM.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mi_connect_service",
+      "label": "Mi Connect",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.milink.service",
+      "label": "UniPlay",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.miplay_client",
+      "label": "MiPlay",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mirror",
+      "label": "Xiaomi Interconnectivity",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.hypercomm",
+      "label": "HyperConnect",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.midrop",
+      "label": "ShareMe",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.mishare.connectivity",
+      "label": "Mi Share",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.upnp",
+      "label": "UPnP Service",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.smarthome",
+      "label": "Xiaomi Home",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.carlink",
+      "label": "CarWith",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mis",
+      "label": "Connected Car",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.digitalkey",
+      "label": "Digital Key",
+      "group": "Connectivity",
+      "risk": "advanced",
+      "note": "May disrupt casting, sharing, IoT or integration between devices.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cloudbackup",
+      "label": "Cloud Backup",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cloudservice",
+      "label": "Xiaomi Cloud",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.micloudsync",
+      "label": "MiCloud Sync",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cloudservice.sysbase",
+      "label": "Cloud System Base",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.newmidrive",
+      "label": "Mi Drive",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.backup",
+      "label": "Local Backup",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.huanji",
+      "label": "Mi Mover",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.simactivate.service",
+      "label": "Xiaomi Activation",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mircs",
+      "label": "Mi RCS",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.xmsfkeeper",
+      "label": "XMSF Keeper",
+      "group": "Cloud",
+      "risk": "advanced",
+      "note": "May affect Xiaomi backup, sync, accounts and verification. This app does not back up personal data.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.gamecenter",
+      "label": "Game Center",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.gamecenter.sdk.service",
+      "label": "Game Center SDK",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.migameservice",
+      "label": "Mi Game Service",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.glgm",
+      "label": "Xiaomi Games",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.barrage",
+      "label": "Game notifications",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.macro",
+      "label": "Game macros",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.vpnsdkmanager",
+      "label": "Game VPN SDK",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.youpin",
+      "label": "Youpin",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.jr",
+      "label": "Xiaomi Finance",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.o2o",
+      "label": "Local Promotions",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.vipaccount",
+      "label": "Xiaomi VIP",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.ab",
+      "label": "Xiaomi AB",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.global.bbs",
+      "label": "Xiaomi Community",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.global.shop",
+      "label": "Xiaomi Store",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.global.pocobbs",
+      "label": "POCO Community",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.global.pocostore",
+      "label": "POCO Store",
+      "group": "Games and region",
+      "risk": "optional",
+      "note": "Optional for some users. Its absence may affect the corresponding feature or service.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.tsmclient",
+      "label": "Smart Cards",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.nextpay",
+      "label": "NextPay",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mipay.wallet",
+      "label": "Xiaomi Wallet",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.unionpay.tsmservice.mi",
+      "label": "UnionPay",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.pass",
+      "label": "Xiaomi Pass",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.payment",
+      "label": "Mi Pay",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mipay.wallet.in",
+      "label": "Mi Pay India",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mipay.wallet.id",
+      "label": "Mi Pay Indonesia",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "org.mipay.android.manager",
+      "label": "Mi Pay Manager",
+      "group": "Payments",
+      "risk": "advanced",
+      "note": "May disrupt payments, cards, keys and authentication. Keep it if you use these services.",
+      "source": "https://github.com/ovsky/hyperos-debloater/blob/main/data/config/services.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.player",
+      "label": "Mi Music",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.videoplayer",
+      "label": "Mi Video",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.mediaeditor",
+      "label": "Gallery Editor",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cleanmaster",
+      "label": "Cleaner",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cleaner",
+      "label": "New Cleaner",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.userguide",
+      "label": "Xiaomi Guide",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.cit",
+      "label": "CIT Hardware Test",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.bttester",
+      "label": "Bluetooth Test",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.mtb",
+      "label": "MTB Diagnostic",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.miwallpaper.earth",
+      "label": "Earth Super Wallpaper",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.miwallpaper.mars",
+      "label": "Mars Super Wallpaper",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.compass",
+      "label": "Compass",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.calculator",
+      "label": "Calculator",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.weather2",
+      "label": "Weather",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.notes",
+      "label": "Notes",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.duokan.phone.remotecontroller",
+      "label": "Mi Remote",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.screenrecorder",
+      "label": "Screen Recorder",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.globalbrowser",
+      "label": "Mi Browser",
+      "group": "Utilities",
+      "risk": "optional",
+      "note": "Changing this package disables the indicated feature. Inactive apps may have no meaningful performance impact.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.powerkeeper",
+      "label": "Battery & Performance",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.powerchecker",
+      "label": "Power Detector",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.joyose",
+      "label": "Joyose",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.ugd",
+      "label": "GPU Driver Updater",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.securitycenter",
+      "label": "Security Center",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.securitycore",
+      "label": "Security Core",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.securityadd",
+      "label": "Security Add-on",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.lbe.security.miui",
+      "label": "Permission Manager",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.packageinstaller",
+      "label": "Package Installer",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.global.packageinstaller",
+      "label": "Global Package Installer",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.core",
+      "label": "MIUI Core",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.core.internal.services",
+      "label": "Core Services",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.micloud.sdk",
+      "label": "MiCloud SDK",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.xmsf",
+      "label": "Xiaomi Framework",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.account",
+      "label": "Xiaomi Account",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.finddevice",
+      "label": "Find Device",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.home",
+      "label": "System Launcher",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.mi.android.globallauncher",
+      "label": "POCO Launcher",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.miwallpaper",
+      "label": "Wallpaper Engine",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.aod",
+      "label": "Always-on Display",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.guardprovider",
+      "label": "Security Scan",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.market",
+      "label": "System App Store",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.xiaomi.discover",
+      "label": "System Apps Updater",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.rom",
+      "label": "MIUI ROM",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    },
+    {
+      "package": "com.miui.system",
+      "label": "MIUI System",
+      "group": "Protected",
+      "risk": "protected",
+      "note": "Component with core dependencies or reported failures. Changes are blocked in this version.",
+      "source": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/blob/main/resources/assets/uad_lists.json",
+      "evidence": "community",
+      "validatedBuilds": []
+    }
+  ]
+}
