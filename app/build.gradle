@@ -1,0 +1,32 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'dev.bloatware.exorcism'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+    defaultConfig {
+        applicationId 'dev.bloatware.exorcism'
+        minSdk 29
+        targetSdk 36
+        versionCode 6
+        versionName '0.3.1'
+    }
+    buildFeatures { buildConfig true }
+    signingConfigs {
+        debug {
+            def developmentKey = providers.gradleProperty('exorcismDebugKeystore').orNull
+            if (developmentKey != null) {
+                storeFile file(developmentKey)
+                storePassword 'android'
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
