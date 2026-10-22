@@ -1,0 +1,2 @@
+  User 0: installed=true enabled=0
+  User 0: installed=false enabled=3

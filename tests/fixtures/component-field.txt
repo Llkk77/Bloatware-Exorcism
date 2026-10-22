@@ -1,0 +1,4 @@
+    User 0: installed=true
+      disabledComponents:
+        installed=false
+        enabled=3

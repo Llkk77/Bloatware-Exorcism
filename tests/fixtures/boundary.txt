@@ -1,0 +1,2 @@
+    User 0: installed=true
+    ComponentResolver: enabled=1

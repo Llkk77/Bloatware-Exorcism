@@ -1,0 +1,4 @@
+Packages:
+  Package [com.miui.analytics]:
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false stopped=false enabled=0
+    User 10: ceDataInode=0 installed=false hidden=false enabled=3
