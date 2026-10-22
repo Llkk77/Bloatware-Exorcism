@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="banner.jpg" alt="Bloatware Exorcism — Clean your Android. Reclaim control." width="100%">
+</p>
+
+<p align="center">
+  <img src="icon.jpg" alt="Bloatware Exorcism icon" width="80" height="80">
+</p>
+
 # Bloatware Exorcism
 
 Offline MIUI/HyperOS bloatware management with KernelSU, reversible package changes and a Material Design 3 interface.
@@ -28,6 +36,12 @@ The complete, buildable source tree is provided in **BloatwareExorcism-project.z
 - Ripple feedback, smooth transitions, reduced-motion handling and adaptive navigation.
 - One-tap ordinary selected-package actions with automatic backup; advanced packages retain review.
 - No INTERNET permission, ads or analytics.
+
+<p align="center">
+  <img src="features.jpg" alt="Illustration of package detection, removal, backup and restoration" width="100%">
+</p>
+
+*Promotional illustration, not an app screenshot or measured results. Holy Backup saves package states, not full system backups. The depicted counts are illustrative; performance and storage gains are not verified.*
 
 ## Requirements and installation
 
@@ -66,3 +80,7 @@ MIT. Material, Lit and Roboto notices are included in the source archive.
 
 - Llkk77
 - ChatGPT
+
+<p align="center">
+  <img src="footer.jpg" alt="The Exorcism Continues" width="100%">
+</p>
