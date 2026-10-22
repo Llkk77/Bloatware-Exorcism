@@ -1,0 +1,86 @@
+name: Signed Android prerelease
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing reviewed tag matching v<versionName>
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: signed-android-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: Validate tag input
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: '[[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?$ ]]'
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+          persist-credentials: false
+      - name: Verify tag and version
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          test "$(git describe --tags --exact-match)" = "$RELEASE_TAG"
+          python3 - <<'PY'
+          import os, pathlib, re
+          source = pathlib.Path('app/build.gradle').read_text()
+          version = re.search(r"versionName\s+'([^']+)'", source).group(1)
+          assert os.environ['RELEASE_TAG'] == 'v' + version, 'Tag must match versionName'
+          PY
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407
+      - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+      - run: bash scripts/verify.sh
+      - run: sh gradlew --no-daemon assembleRelease lintRelease
+      - name: Sign and verify the exact release APK
+        env:
+          RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: bash scripts/sign-release.sh
+      - name: Record source, run and release hash
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          printf 'Source: %s\nRun: %s\n' "$(git rev-parse HEAD)" "$RUN_URL" > dist/BUILD.txt
+          printf '# %s — signed test prerelease\n\nSource: `%s`\n\nWorkflow: %s\n\n' "$RELEASE_TAG" "$(git rev-parse HEAD)" "$RUN_URL" > dist/RELEASE.md
+          printf '## APK SHA-256\n\n```text\n' >> dist/RELEASE.md
+          cat dist/SHA256SUMS.txt >> dist/RELEASE.md
+          printf '```\n\n' >> dist/RELEASE.md
+          printf 'Export Holy Backup and reports before uninstalling a development-signed build. A different signing key may require uninstalling, which removes internal app data. This build is not a security certification; device validation and known limits are documented in the repository.\n' >> dist/RELEASE.md
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: signed-release-${{ inputs.tag }}
+          path: dist/
+          if-no-files-found: error
+      - name: Publish the same signed files to GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          gh release create "$RELEASE_TAG" dist/*.apk dist/SHA256SUMS.txt dist/CERTIFICATE.txt dist/BUILD.txt --verify-tag --prerelease --title "Bloatware Exorcism $RELEASE_TAG" --notes-file dist/RELEASE.md
+      - name: Remove temporary signing material
+        if: always()
+        run: rm -f "$RUNNER_TEMP/exorcism-release.jks"
