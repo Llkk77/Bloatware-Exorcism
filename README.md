@@ -1,14 +1,12 @@
 # Bloatware Exorcism
 
-**by ChatGPT**
-
 Offline MIUI/HyperOS bloatware management with KernelSU, reversible package changes and a Material Design 3 interface.
 
 ## Downloads
 
 - [APK and version releases](https://github.com/Llkk77/Bloatware-Exorcism/releases)
 - [Complete Android project ZIP](BloatwareExorcism-project.zip)
-- [v0.3.0 release notes](RELEASE_NOTES.md)
+- [v0.3.1 release notes](RELEASE_NOTES.md)
 - [Verification and limitations](VERIFICATION.md)
 
 The complete, buildable source tree is provided in **BloatwareExorcism-project.zip**. Extract it and open the `BloatwareExorcism` folder in Android Studio. The archive includes the Gradle wrapper, native Java code, local Material Web interface, catalog, tests, documentation and third-party license notices. Private signing keys are excluded.
@@ -23,7 +21,7 @@ The complete, buildable source tree is provided in **BloatwareExorcism-project.z
 | Resurrection | Restore recorded package changes |
 | Deep Exorcism | Review advanced packages and audit native services; optional experimental KernelSU rescue module |
 
-## Version 0.3.0
+## Version 0.3.1
 
 - Official Material Web components bundled offline, with Roboto typography and tonal surfaces.
 - Dark dynamic colors on compatible Android devices; Exorcism blue fallback.
@@ -63,3 +61,8 @@ Holy Backup records package states, not personal app data or firmware images. Ro
 ## License
 
 MIT. Material, Lit and Roboto notices are included in the source archive.
+
+## Contributions
+
+- Llkk77
+- ChatGPT
